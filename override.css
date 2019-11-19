@@ -1,0 +1,39 @@
+body{
+    width: 80%;
+    padding-left: 350px;
+}
+
+header{
+    background-color: tomato;
+    text-align: center;
+    padding: 60px 50px 60px 50px;
+}
+
+section{
+    background-color: turquoise;
+    text-align: center;
+    padding: 60px 50px 100px 50px; 
+}
+
+h1{
+    padding-bottom: 50px;
+}
+
+.resources{
+    background-color: tomato;
+    text-align: left;
+
+    padding: 60px 50px 60px 50px;
+
+}
+
+.heading1{
+    text-align: center;
+}
+
+.resources1{
+    background-color: turquoise;
+    text-align: left;
+    padding: 60px 50px 60px 50px;
+ 
+}

@@ -4,58 +4,80 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Grammar</title>
+  <title>Tutors</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="override.css" >  
 </head>
 <body>
 
-	<header>
-		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="index.html">Home<span class="sr-only">(current)</span></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+				  <ul class="navbar-nav">
+					<li class="nav-item active">
+					  <a class="nav-link" href="resources.html">Resources </a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="tutors.html">Tutors</a>
+					</li>
+					
+					</li>
+				  </ul>
+				</div>
+			  </nav>
 
-	</header>
-
-	<H1>Meet The Tutors</H1>
+	<header class="resources">
+	
+			<h1>Meet The Tutors</h1>
 
     
-<!-- PROBABLY SHOULD BE A TABLE or something to properly represent the data -->
+			<!-- PROBABLY SHOULD BE A TABLE or something to properly represent the data -->
+				
+				
+				<ul>
+				  <li>Sharie Jones, Thurs 5-10pm, Genesee</li> 
+			
+				  <li>Danisha O'Brien, Su B Mon 9-12 & Sunday 9-12</li> 
+			
+				  <li>Bryan Felipe, Rush Rhees, Wednesday 5-7pm & Saturday 10-12pm</li>
+			
+				  <!-- <li>Cliches</li>
+				  <li>Commas</li>
+				  <li>Definite and Indefinite Articles</li>
+				  <li>Fragments and Run-On Sentences</li>
+				  <li>Passive Voice</li>
+				  <li>Prepositions</li>
+				  <li>Semicolons, Colons, Em Dashes</li>
+				  <li>Sentence Structure</li>
+				  <li>Subject-Verb Agreement</li>
+				   <li>Transitions</li>
+				  <li>Verb Choice</li>
+				  <li>Verb Tense and Aspect</li>
+				  <li>Verbs of Attribution</li>
+				  <li>Wordiness</li> -->
+				</ul>  
+ 
+	</header>
+ 
+	<section class="resources1">
 	
-	
-	<ul>
-	  <li>Sharie Jones, Thurs 5-10pm, Genesee</li> 
 
-	  <li>Danisha O'Brien, Su B Mon 9-12 & Sunday 9-12</li> 
+			<h1>Interested in Tutoring?</h1>
+			<h4>Applications are closed right now for Term 2019. Sign Up here to get notified when the application releases: </h4>
+			<form>
+					<div class="form-group">
+					  <label for="exampleInputEmail1">Email address</label>
+					  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+					  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				  </form>
 
-	  <li>Bryan Felipe, Rush Rhees, Wednesday 5-7pm & Saturday 10-12pm</li>
-
-	  <!-- <li>Cliches</li>
-	  <li>Commas</li>
-	  <li>Definite and Indefinite Articles</li>
-	  <li>Fragments and Run-On Sentences</li>
-	  <li>Passive Voice</li>
-	  <li>Prepositions</li>
-	  <li>Semicolons, Colons, Em Dashes</li>
-	  <li>Sentence Structure</li>
-	  <li>Subject-Verb Agreement</li>
-	   <li>Transitions</li>
-	  <li>Verb Choice</li>
-	  <li>Verb Tense and Aspect</li>
-	  <li>Verbs of Attribution</li>
-	  <li>Wordiness</li> -->
-	</ul>  
-
-	<H1>Interested in Tutoring?</H1>
-		<div>Applications are closed right now for Term 2019. Sign Up here to get notified when the application releases: </div>
-	<form method="post" action="new.php">
-		<label for="email">Email: </label>
-		<input type="text" name="email" id="email">
-		<input type="submit" value="Subscribe">
-	</form>
-
-  
+			</section>
 </body>
 </html>
