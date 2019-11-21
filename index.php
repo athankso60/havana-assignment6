@@ -39,7 +39,9 @@
 	
 	<section>
 
-		<h1>OVERVIEW</h1>
+		<h1>About Us</h1>
+
+		<img src="images/writingimg.jpg" alt="writing">
 
 		<p>The Writing and Speaking Center supports effective academic communication across all disciplines by offering free writing and speaking tutoring to all members of the University of Rochester community. </p>
 	
@@ -51,6 +53,7 @@
 
     <section>
 		<h1>WE ARE HERE TO HELP!</h1>
+		<img src="images/writing-tutor.jpg" alt="tutoring session">
 		
 		<p>From brainstorming ideas to polishing a final draft, writing tutors can help you at any stage of the writing process. Meet the tutors or/and check out our resources!</p>
 
@@ -63,7 +66,7 @@
 		</p>
 
 			We also offer standing weekly appointments for students who would like to work with the same tutor at the same time every week. To request a standing appointment, email stefanie.sydelnik@rochester.edu.
-			To learn more about our tutors, see the <li><a href="tutors.html">writing tutor biography page.</a></li> 
+			To learn more about our tutors, see the <li><a href="tutors.php">writing tutor biography page.</a></li> 
 		</p>
 
 
