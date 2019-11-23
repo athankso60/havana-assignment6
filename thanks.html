@@ -6,9 +6,9 @@
 </head>
 <body>
 
-	<h1>Assignment 5 Thanks</h1>
+	<h1>Writing Tutor Application</h1>
 
-	<p>That was lovely.  Good job.  <a href=".">Now go away.</a></p>
+	<p>Your email was successfully submitted. <a href=".">Applications out soon.</a></p>
 
 </body>
 </html>
