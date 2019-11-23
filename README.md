@@ -28,3 +28,7 @@ The order is not only oragnized by alphabetical order but in the order of need. 
 
 # CSS System
 
+I have used the BootStrap framework. 
+The CSS code has been divided into two parts. Firstly, I have the styling of HTML tags and then I have the styling of the classes. 
+I have used the Grid Layout on the third page to enter the F pattern.
+
