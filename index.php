@@ -14,26 +14,7 @@
 	
 	<body>
 
-		<header>
-
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand" href="index.php">Home<span class="sr-only">(current)</span></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				  <span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-				  <ul class="navbar-nav">
-					<li class="nav-item active">
-					  <a class="nav-link" href="resources.php">Resources </a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="tutors.php">Tutors</a>
-					</li>
-					
-					</li>
-				  </ul>
-				</div>
-			  </nav>
+		<?php  $currentPage = "home"; include "inc/header.php";?>
 
 		</header>
 	
@@ -66,7 +47,7 @@
 		
 
 				We also offer standing weekly appointments for students who would like to work with the same tutor at the same time every week. To request a standing appointment, email stefanie.sydelnik@rochester.edu.
-				To learn more about our tutors, see the <li><a class="anchor" href="tutors.html">writing tutor biography page.</a></li> 
+				To learn more about our tutors, see the <a class="anchor" href="tutors.html">writing tutor biography page.</a>
 			</p>
 
 

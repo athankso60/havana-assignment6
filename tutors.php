@@ -11,30 +11,14 @@
   <link rel="stylesheet" href="override.css" >  
 </head>
 
-<header>
-
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="index.php">Home<span class="sr-only">(current)</span></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-		  <ul class="navbar-nav">
-			<li class="nav-item active">
-			  <a class="nav-link" href="resources.php">Resources </a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="tutors.php">Tutors</a>
-			</li>
-			
-			</li>
-		  </ul>
-		</div>
-	  </nav>
-
-</header>		
+		
 
 	<body >
+
+
+			<?php  $currentPage = "tutors"; include "inc/header.php";?>
+
+			
 		    <section class="resources1">
 	
 			<h1>Meet The Tutors</h1>
@@ -46,13 +30,13 @@
 			    <p>Office Hours : Thurs 5-10pm</p>
 				<div>Major: <em>Film & Media Studies and Language, Media, & Communication</em></div></div>
 				<div class="div3"> <p>Biography: My favorite writing is the kind that clarifies something, or makes it approachable. Tutoring has had a similar effect for me in my own experience, so to work as a writing tutor is a great extension of that.</p> </div>
-				<div class="div4"> 	<img class="tutors"src="images/dobrien.png" alt="tutor2"></div>
+				<div class="div4"> 	<img class="tutors" src="images/dobrien.png" alt="tutor2"></div>
 				<div class="div5"> 	<h2>Danisha O'Brien</h2>
 				<p> Office Loc. : Susan B. Anthony</p>
 				<p> Office Hours : Mon 9-12 & Sunday 9-12</p>
 				<div>Major: <em>Linguistics and English: Literature</em></div></div>
 				<div class="div6"> <p>Biography: For me, the most important thing a college education can give is the ability to express my thoughts and memories in a way that will be valued. When every idea can be spoken in hundreds of different sentences, it's worth it to know how to find the best ones. That's why I'm in college.</p> </div>
-				<div class="div7"> <img class="tutors"src="images/bfelipe.jpeg" alt="tutor3"></div>
+				<div class="div7"> <img class="tutors" src="images/bfelipe.jpeg" alt="tutor3"></div>
 				<div class="div8"> 	<h2> Bryan Felipe</h2>
 				<p> Office Loc. : Rush Rhees Library</p>
 			    <p> Office Hours : Wednesday 5-7pm & Saturday 10-12pm</p>
@@ -89,10 +73,10 @@
 
 			<h3>Applications are closed right now for Term 2019. Sign Up here to get notified when the application releases: </h3>
 				<div id = "form-wrapper">
-				<form method = "post" action ="" id="subscription-form">
+				<form method = "post" action ="#" id="subscription-form">
 						<div class="form-group">
-						  <label for="exampleInputEmail1">Email address</label>
-						  <input type="text" name="email" id="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+						  <label for="email">Email address</label>
+						  <input type="text" name="email" id="email" class="form-control" aria-describedby="emailHelp" >
 						  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						</div>
 						<button  type="submit" name="submit" value="Subscribe" class="btn btn-primary">Submit</button>
@@ -101,7 +85,7 @@
 
 	</section>
 
-
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script>
 $("#subscription-form").submit(function(e) {
 	var formData = $("#subscription-form").serialize();
@@ -110,12 +94,13 @@ $("#subscription-form").submit(function(e) {
 		url: "new.php",
 		data: formData,
 		success: function(data){
-			$("#form-wrapper").html("Thank you for subscribing!");
+			$("#form-wrapper").html("We've received you request! You will be notified as soon as applications open!");
 		}
 	});
 	e.preventDefault();
 });
 </script>	
+
 
 </body>
 </html>
