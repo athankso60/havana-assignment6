@@ -13,44 +13,46 @@
 
 </head>
 
-<header>
+<body>
+	
+
+	<header>
 
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand" href="index.php">Home<span class="sr-only">(current)</span></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				  <span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-				  <ul class="navbar-nav">
-					<li class="nav-item active">
-					  <a class="nav-link" href="resources.php">Resources </a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="tutors.php">Tutors</a>
-					</li>
-					
-					</li>
-				  </ul>
-				</div>
-			  </nav>
-	
-</header>
-
-	<body class="resources">
+			<a class="navbar-brand" href="index.php">Home<span class="sr-only">(current)</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			  <ul class="navbar-nav">
+				<li class="nav-item active">
+				  <a class="nav-link" href="resources.php">Resources </a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="tutors.php">Tutors</a>
+				</li>
+				
+				</li>
+			  </ul>
+			</div>
+		  </nav>
+		
+	</header>
 		
 	
+    <section class="resources1">
+
 		<h1 class="heading1"> Writing Resources</h1>
 
 		<p>This year the WSAP(Writing, Speaking, and Argument Program) at the University of Rochester's Writing Center begins a new handouts series. We are looking back over 15 years of instructional materials and updating them. As they become available, new versions will be published here. This page will also include links to selected outside writing resources. The UWC is excited to offer these writing resources, distilled from hundreds of hours of working with students.</p>
 
-		<section>
 
 			<h2>Grammar, Usage, & Punctutation</h2>
 
 			<p>Grammar and punctuation are necessary elements of any piece of writing—if you want to communicate, you've got to make your meaning clear. And clarity goes beyond word choice... But words that make sense and make connections and make a reader think or feel or shiver, those words do make story.</p>
 			
 			<ul>
-			<!--   <li>Apostrophes</li> -->
+			
 			   <li><a href="http://uwc.utexas.edu/handouts/apostrophes/">Apostrophes</a></li>
 
 			   <li><a href="http://uwc.utexas.edu/handouts/capitalization/">Capitalizations</a></li>
@@ -87,11 +89,11 @@
 
 				<li><a href="http://uwc.utexas.edu/handouts/wordiness/">Wordiness</a></li>
 
-		</ul>  
+			</ul>  
 		
-		</section>	
+	</section>	
 		
-		<section class="resources1">
+	<section class="resources2">
 
 			<h1 class="heading1">Citation Resources</h1>
 
@@ -119,7 +121,7 @@
 
 			</ul>  
 
-	    </section>
+	</section>
   
-</body>
+	</body>
 </html>
