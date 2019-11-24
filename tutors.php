@@ -89,13 +89,13 @@
 
 			<h3>Applications are closed right now for Term 2019. Sign Up here to get notified when the application releases: </h3>
 				<div id = "form-wrapper">
-				<form method = "post" action ="" id="subscription-form" >
+				<form method = "post" action ="" id="subscription-form">
 						<div class="form-group">
 						  <label for="exampleInputEmail1">Email address</label>
-						  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						  <input type="text" name="email" id="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
 						  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						</div>
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<button  type="submit" name="submit" value="Subscribe" class="btn btn-primary">Submit</button>
 				</form>
 				</div>
 
@@ -110,7 +110,7 @@ $("#subscription-form").submit(function(e) {
 		url: "new.php",
 		data: formData,
 		success: function(data){
-			$("#form-wrapper").html("Thank you for signing up!");
+			$("#form-wrapper").html("Thank you for subscribing!");
 		}
 	});
 	e.preventDefault();
