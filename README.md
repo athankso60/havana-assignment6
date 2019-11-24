@@ -3,7 +3,7 @@
 # Lab06 Team Havana
 **Team Members**
 * Information Architect: Dominique Dorvil
-* Designer: 
+* Designer: Vaibhav Singh
 * Technical Coder: Andrew Thankson
 * Link to website: 
   
